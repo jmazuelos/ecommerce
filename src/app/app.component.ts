@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Article } from './model/article';
+import { Article } from './models/article';
 
 @Component({
   selector: 'app-root',

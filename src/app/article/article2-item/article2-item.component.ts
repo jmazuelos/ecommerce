@@ -1,13 +1,12 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Article } from '../../models/article';
 
 @Component({
-  selector: 'app-article-item',
-  templateUrl: './article-item.component.html',
-  styleUrl: './article-item.component.css'
+  selector: 'app-article2-item',
+  templateUrl: './article2-item.component.html',
+  styleUrl: './article2-item.component.css'
 })
-
-export class ArticleItemComponent {
+export class Article2ItemComponent {
   @Input() article: Article = {
     id: 1,
     name: 'Silla ergonómica',
